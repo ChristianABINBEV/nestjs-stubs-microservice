@@ -1,8 +1,7 @@
 # compiled output
 /dist
 /node_modules
-
-.env.*
+*.env
 
 # Logs
 logs
@@ -31,7 +30,14 @@ lerna-debug.log*
 
 # IDE - VSCode
 .vscode
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# TypeORM settings
+ormconfig.json
+
+# Env variables
+/environment/.env.*

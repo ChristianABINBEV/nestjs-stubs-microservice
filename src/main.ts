@@ -25,8 +25,8 @@ async function bootstrap() {
     log(`
      ============================================
      =  {{ template }} execution info:
-     =  PORT: ${port}
      =  NAME: ${process.env.APP_NAME}
+     =  PORT: ${port}
      ============================================
      `);
   });
